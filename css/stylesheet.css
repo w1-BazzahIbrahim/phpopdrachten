@@ -32,3 +32,8 @@
 {
     font-weight: bold;
 }
+h1
+{
+    text-align: right;
+    background-color: lightblue;
+}
