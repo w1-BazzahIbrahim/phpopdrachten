@@ -15,16 +15,16 @@
     <meta name="description" content=" ">
     <meta name="keywords" content=" ">
     <meta charset="utf-8">
-    <link href="../../css/stylesheet.css" rel="stylesheet" type="text/css">
+    <link href="../css/stylesheet.css" rel="stylesheet" type="text/css">
     <title>
         Index
     </title>
 </head>
 <body>
 <?php
-include("../../Include/header.php");
+include("../Include/header.php");
 ?>
-<aside>
+ <aside>
     <div id="list">
         <h2>
             Menu
@@ -34,10 +34,10 @@ include("../../Include/header.php");
                 Hoofdstuk 2
                 <ul>
                     <li>
-                        <a href="../../Hoofdstuk%202/2.1.php">Opdracht 2.1</a>
+                        <a href="../Hoofdstuk%202/2.1.php">Opdracht 2.1</a>
                     </li>
                     <li>
-                        <a href="../../Hoofdstuk%202/Huiswerk/2.2.php">Opdracht 2.2</a>
+                        <a href="../..">Opdracht 2.2</a>
                     </li>
                 </ul>
                 Hoofdstuk 3
@@ -91,11 +91,14 @@ include("../../Include/header.php");
         <h2 id="uitwerking2">
             Uitwerking
         </h2>
-        echo("<a href='../../Index/index.php'>terug</a>");
+        echo("<a href='../Index/index.php'>terug</a>");
         ?>
     </div>
 </main>
 <footer>
+    <?php
+    include("../Include/footer.php");
+    ?>
 </footer>
 </body>
 </html>
