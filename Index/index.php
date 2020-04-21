@@ -24,7 +24,7 @@
 <?php
 include("../Include/header.php");
 ?>
- <aside>
+<aside>
     <div id="list">
         <h2>
             Menu
@@ -34,10 +34,10 @@ include("../Include/header.php");
                 Hoofdstuk 2
                 <ul>
                     <li>
-                        <a href="../Hoofdstuk%202/2.1.php">Opdracht 2.1</a>
+                        <a href="../../Hoofdstuk%202/2.1.php">Opdracht 2.1</a>
                     </li>
                     <li>
-                        <a href="../..">Opdracht 2.2</a>
+                        <a href="../../Hoofdstuk%202/Huiswerk/2.2.php">Opdracht 2.2</a>
                     </li>
                 </ul>
                 Hoofdstuk 3
@@ -46,7 +46,7 @@ include("../Include/header.php");
                         <a href="../../Hoofdstuk%203/Huiswerk/3.1.php">Opdracht 3.1</a>
                     </li>
                     <li>
-                        <a href="../../Hoofdstuk%203/Huiswerk/3.2.php">Opdracht 3.2</a>
+                        <a href="../Hoofdstuk%203/Huiswerk/3.2.php">Opdracht 3.2</a>
                     </li>
                     <li>
                         <a href="../../Hoofdstuk%203/Huiswerk/3.3.php">Opdracht 3.3</a>
@@ -91,14 +91,18 @@ include("../Include/header.php");
         <h2 id="uitwerking2">
             Uitwerking
         </h2>
-        echo("<a href='../Index/index.php'>terug</a>");
+        <?php
+        echo("<a href='../../Index/index.php'>terug</a>");
         ?>
     </div>
 </main>
 <footer>
-    <?php
-    include("../Include/footer.php");
-    ?>
+
+<?php
+include("../Include/footer.php");
+?>
 </footer>
+</body>
+</html>
 </body>
 </html>
